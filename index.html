@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>АДСКАЯ ДРОЧИЛЬНЯ</title>
+
+    </head>
+    <body>
+
+        <div id="status-bar">
+
+            <div>
+
+                <p>
+
+                    <strong>Циферки: </strong>
+                    <a id="numbers-count">...</a>
+
+                </p>
+
+            </div>
+            
+        </div>
+        
+        <div class="blocks" id="main">
+
+            <div id="mainContainer">
+
+                <div class="containerBlock" id="shopAbilities-click">
+
+                    <a>магазин</a>
+
+                </div>
+
+                <div class="containerBlock" id="casino-click">
+
+                    <a>казино</a>
+
+                </div>
+
+            </div>
+
+            <div id="click-block">
+
+                <div id="click-block-clickable">клик!</div>
+
+                <div id="click-block-upgrade">Улучшить</div>
+
+            </div>
+
+        </div>
+
+        <div class="blocks" id="shopAbilities">
+
+            <div id="shopAbilitiesBlock">
+
+                <div class="abilElm">
+
+                    <p class="abilName"></p>
+                    <p class="abilDescription"></p>
+                    <p class="abilPrice"></p>
+                    <p class="abilStatus"></p>
+                    <p class="abilBuy">Купить</p>
+
+                </div>
+
+            </div>
+
+            <div class="back"><button>Назад</button></div>
+
+        </div>
+
+        <div class="blocks" id="shopClicksUpgrades">
+
+            <div id="shopClicksUpgrades">
+
+                <div class="shuElm">
+                    <p class="shuName"></p>
+                    <p class="shuDescription"></p>
+                    <p class="shuPrice"></p>
+                    <p class="shuStatus"></p>
+                    <div class="shuBuy">
+                        <a class="shuBuy1 shuBuyBtn"  value="1">Улучшить (1х)</a>
+                        <a class="shuBuy10 shuBuyBtn"  value="10">Улучшить (10х)</a>
+                        <a class="shuBuy100 shuBuyBtn"  value="100">Улучшить (100х)</a>
+                    </div>
+                </div>
+
+                <div class="shuElm">
+                    <p class="shuName"></p>
+                    <p class="shuDescription"></p>
+                    <p class="shuPrice"></p>
+                    <p class="shuStatus"></p>
+                    <div class="shuBuy">
+                        <a class="shuBuy1 shuBuyBtn"  value="1">Улучшить (1х)</a>
+                        <a class="shuBuy10 shuBuyBtn"  value="10">Улучшить (10х)</a>
+                        <a class="shuBuy100 shuBuyBtn"  value="100">Улучшить (100х)</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="back"><button>Назад</button></div>
+
+        </div>
+
+        <div class="blocks" id="casino">
+
+            <div>
+
+                <h3>Выбери цвет: </h3>
+
+                <div id="game-settings">
+
+                    <div>
+
+                        <span id="casino-black"></span>
+                        <span id="casino-red"></span>
+    
+                    </div>
+    
+                    <input placeholder="Сумма" value="1" id="casino-placing"/>
+    
+                    <button id="casino-set-game">поставить</button>
+                    
+                </div>
+
+                <div id="game-casino">
+
+                    <p>Черный <= 0.5</p>
+                    <p>Красный => 0.5</p>
+
+                    <p id="game-number"></p>
+                    <p id="game-status"></p>
+
+                    <button id="game-close">закрыть</button>
+
+                </div>
+
+            </div>
+
+            <div class="back"><button>Назад</button></div>
+
+        </div>
+
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.blocks {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 -100vw 0 0;
+}
+
+#status-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#click-block {
+    display: none;
+    grid-template-columns: 25fr 75fr;
+}
+
+#click-block-clickable {
+    width: 15vw;
+    height: 15vw;
+    background: #111;
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.abilElm, .shuElm {
+    padding: 2vw;
+}
+#casino-black, #casino-red {
+    display: inline-block;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+}
+#casino-black {
+    background: black;
+}
+#casino-red {
+    background: red;
+}
+#game-casino {
+    display: none;
+}
